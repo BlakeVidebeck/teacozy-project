@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+a{
+    color: seashell;
+}
+
+main{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+h2{
+    padding: 15px 0px;
+}
+
+/*header styles*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    padding: 15px;
+}
+
+.header img{
+    height: 50px;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.header li{
+    margin-left: 20px;
+}
+
+/*mission styles*/
+.mission-container{
+    height: 700px;
+    background-image: url('../images/img-mission-background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission{
+background-color: black;
+width: 100%;
+padding-bottom: 10px;
+}
+
+/*featured tea styles*/
+#featured-tea{
+    margin: 0 auto;
+    height: auto;
+    width: 1000px;
+    padding: 50px 0px;
+}
+
+.mission{
+    padding: 10px 0px;
+}
+
+.featured-tea-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    margin: 10px;
+}
+
+.item img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+/*location styles*/
+.locations-container{
+    padding-top: 50px;
+    height: 600px;
+    background-image: url('../images/img-locations-background.jpg');
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#locations{
+    display: flex;
+}
+
+.location{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.copyright{
+    padding: 20px;
+    text-align: left;
+}
